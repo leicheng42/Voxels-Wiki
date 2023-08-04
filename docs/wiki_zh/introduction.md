@@ -24,9 +24,21 @@ Crypto voxels 加密 体素，“加密”一词在大家看来可能具有负�
 
 ## 地块(Parcels)
 
+地块是位于 Cryptovoxels 虚拟宇宙中的一块土地。
+每个地块位于不同的[邻居](https://wiki.cryptovoxels.com/en/The-world)并且具有不同的尺寸。
+
+![parcel-empty.gif](https://wiki.cryptovoxels.com/buyingparcel/parcel-empty.gif)
+
+有关您可以在地块上建造什么的信息，请访问[此处](https://wiki.cryptovoxels.com/en/Parcels/Building)。
+您还可以使用免费的 [spaces](https://wiki.cryptovoxels.com/Spaces) 预先进行实验。
+
 ## 玩家(Players)
 
+在虚拟世界中，您有多种方法可以自定义您的角色。
+
 ## 功能(Features)
+
+要放置功能，您必须位于具有建筑权的地块中，然后按 TAB 键。
 
 | Feature | Description | Feature | Description |
 | ------ | ------ | ------ | ------ |
@@ -45,6 +57,4 @@ Crypto voxels 加密 体素，“加密”一词在大家看来可能具有负�
 
 ## 脚本编程(Scrpting)
 
-
-sdfgsdfghdf
-
+这里是关于 Scripting 系统的文档，这里是一些关于 Animation-API 的文档动画 API。脚本系统可用于制作动画并使您的地块具有交互性。脚本在您的浏览器中运行（使用 untrusted.Voxels.com 上的 webworker ），但如果您在地块设置下启用“网格脚本” - 它们将在 The Grid 我们的多人游戏服务器上运行。
