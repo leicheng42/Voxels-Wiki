@@ -1,0 +1,5 @@
+# production
+/docs/_build
+
+# misc
+.DS_Store
