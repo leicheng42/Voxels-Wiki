@@ -49,7 +49,8 @@ html_theme_options = {
     "use_issues_button": True,
     "use_source_button": True,
     "home_page_in_toc": True,
+    "body_max_width": "90%",
 }
 
 html_title = "Voxels Wiki by Raiden INST"
-html_logo = "imags/logo.jpg"
+html_logo = "_static/img/logo.jpg"

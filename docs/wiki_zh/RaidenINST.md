@@ -1,14 +1,15 @@
-# 雷电所(Raiden INST) on Voxels
+(raiden)=
+# Voxels中的雷电所
 
-## 雷电所外观照
+## [前往雷电所](https://www.voxels.com/play?coords=SW@1369W,1116S)
 
-
-<img src="imags/RaidenINST_appearance.jpg" alt="雷电所外观照" width="400px">
-
+<a href ="https://www.voxels.com/play?coords=SW@1369W,1116S">
+<img src="../_static/img/RaidenINST_appearance.jpg" alt="雷电所外观照" width="500px">
+</a>
 
 ## 雷电所位置
 
-<img src="imags/RaidenINST_map.jpg" alt="雷电所位置" width="400px">
+<img src="../_static/img/RaidenINST_map.jpg" alt="雷电所位置" width="500px">
 
 ## 地块信息
 
@@ -23,6 +24,5 @@
 |高度区间 <br> Elevation|-3 to 10 m |
 |体积 <br> Volume|8960 voxels|
 |链接 <br> Link|https://www.voxels.com/play?coords=SW@1369W,1116S|
-
 
 
