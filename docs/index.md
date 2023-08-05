@@ -34,7 +34,7 @@ Voxels 世界中的雷电所。
 
 ## <img width='28' src='_static/img/RaidenINST_logo.jpg' /> 雷电所RaidenINST
 
-![雷电所](https://mmbiz.qpic.cn/sz_mmbiz_gif/PBkwuGgIa5icTIaxdR2biaMvY7TtyCdR6FsKaubnMibP65M5qHVddUZjo9k4rSaSZZs1I2juug6ytnVgHicelWz31g/640?wx_fmt=gif&wxfrom=5&wx_lazy=1&wx_co=1)
+![雷电所](_static/img/RaidenINST.gif)
 
 「雷电所」（Raiden INST）成⽴于2020年。取名为“雷电”，是取其物理原理的象征性意义——雷电是云内（艺术界内部）、云与云（跨学科）或云与大地（艺术与大众文化）之间的放电现象，意指了交流、协作与能量的传递。
 
