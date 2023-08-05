@@ -1,8 +1,8 @@
+(call-bell)=
+# Call Bell
+
 > 自 4.16 版本以来，该功能已被削，不再可用。
 {.is-danger}
-
-
-# Call Bell
 
 呼叫铃外观与[按钮](https://wiki.cryptovoxels.com/features/button)类似，按下时会向 Discord 用户发送消息。
 

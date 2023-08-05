@@ -1,3 +1,4 @@
+(polytext)=
 # Polytext
 
 ![polytext-example.png](https://wiki.cryptovoxels.com/polytext-example.png)

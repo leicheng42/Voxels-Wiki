@@ -1,3 +1,4 @@
+(boombox)=
 # Boombox 扬声器
 A boombox allows you to stream audio from your computer into the world. To use a boombox, simply click on it and then select `Start Broadcasting` from the pop-up.
 扬声器可让您将声音传输到世界中。要使用扬声器，只需单击它，然后从弹出窗口中选择“开始广播”。

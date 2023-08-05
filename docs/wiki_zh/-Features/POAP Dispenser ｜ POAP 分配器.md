@@ -1,3 +1,4 @@
+(POAP-Dispenser)=
 # POAP Dispenser ｜ POAP 分配器
 
 POAP 代表出席协议证明，是 XDai 网络上颁发给虚拟和现实世界活动参与者的徽章。使用此功能可以向那些到您地块参加您举办活动访客分发 POAP。

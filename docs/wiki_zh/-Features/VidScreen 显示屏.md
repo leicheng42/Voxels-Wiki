@@ -1,3 +1,4 @@
+(vid-screen)=
 # VidScreen 显示屏
 
 VidScreen 是一个可编程的 64x64 屏幕，您可以使用箭头键“a”和“b”与其进行交互。

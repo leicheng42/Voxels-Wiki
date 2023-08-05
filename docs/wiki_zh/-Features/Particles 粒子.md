@@ -1,3 +1,4 @@
+(particles)=
 # Particles 粒子
 
 ![particles-example.png](https://wiki.cryptovoxels.com/particles-example.png)

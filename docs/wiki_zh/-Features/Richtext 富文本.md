@@ -1,3 +1,4 @@
+(richtext)=
 # Richtext 富文本
 
 Richtext 功能允许您显示多行格式化文本。但与 [signs](https://wiki.cryptovoxels.com/features/sign) 不同，它们不能用作超链接。

@@ -1,4 +1,5 @@
-## Spawn point 出生点
+(spawn-point)=
+# Spawn point 出生点
 
 该功能可让您在地块中生成时设置默认出生点。
 只有贡献者和所有者才能看到它！

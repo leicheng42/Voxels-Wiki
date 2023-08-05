@@ -1,3 +1,4 @@
+(slider-input)=
 # Slider Input 滑动输入
 
 让用户输入一定范围内的数值。

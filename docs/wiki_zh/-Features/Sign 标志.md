@@ -1,3 +1,4 @@
+(sign)=
 # Sign 标志
 
 符号功能允许您显示一行文本。但与 [Richtext](https://wiki.cryptovoxels.com/features/richtext) 不同，它们可以用作超链接。

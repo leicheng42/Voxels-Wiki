@@ -1,3 +1,4 @@
+(vox-model)=
 # Vox
 
 Vox 是小型 (32x32x32) .vox 型号，目前每个地块仅限 200 个。这些通常是使用 [Magicavoxel](https://ephtracy.github.io/) 制作的。

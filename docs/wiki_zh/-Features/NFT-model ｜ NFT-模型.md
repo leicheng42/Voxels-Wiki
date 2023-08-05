@@ -1,3 +1,4 @@
+(nft-model)=
 # NFT-model ｜ NFT-模型
 
 允许您使用 Opensea 链接在世界中显示 3d vox 模型。它有一个内置的 GUI 菜单，显示有关 nft 的信息。

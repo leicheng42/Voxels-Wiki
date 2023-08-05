@@ -1,3 +1,4 @@
+(nft-image)=
 # NFT Image ｜ NFT 图像
 
 For NFTs you own, the NFT image will appear with a shiny frame.
@@ -149,6 +150,7 @@ animation_url: "https://stora..."
 asset_contract: {...}
 ...
 }
+*/
 ```
 
 ### example 2
@@ -160,7 +162,7 @@ function showContractAddress(data){
 }
 
 feature.getNftData(showContractAddress)
-/* returns: 0x1das1rs6dfv...
+/* returns: 0x1das1rs6dfv...  */
 
 ```
 

@@ -1,3 +1,4 @@
+(portal)=
 # Portal 传送门
 
 Let users teleport to in-world locations. Portals use womps taken in the past. This gives incentive for the player to go explore the world and take womps.

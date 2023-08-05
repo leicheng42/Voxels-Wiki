@@ -3,9 +3,13 @@
 
 # 体素（Voxels）
 
-## 1.1 Cryptovoxels vs Voxels
+**Voxels** (前身 **Cryptovoxels** )是一个以区块链技术为基础的虚拟世界，为用户创造了一个数字化的元宇宙平台。用户可以在自己的地块上构建、展示艺术作品、互动游戏，并与全球社区共享创意。通过区块链集成，用户可以在这个数字环境中购买、出售和拥有地块，实现透明的所有权和独特的数字创作体验。
 
-Cryptovoxels 是 Voxels 的旧名字。Cryptovoxels.com 会重定向到 voxels.com ， Cryptovoxels 于 2022 年 5 月 3 日更名为 Voxels
+Cryptovoxels不仅是一个数字艺术空间，也是一个具有社交互动和创意自由的平台。用户可以通过脚本编程赋予虚拟物体动态行为，创造出互动性的装置和游戏。无论是艺术家、创作者还是游戏玩家，都可以在这个数字世界中发挥创意、探索可能性，并与全球社区分享他们的数字创作和体验。
+
+## Cryptovoxels vs Voxels
+
+Cryptovoxels 是 Voxels 的前身。Cryptovoxels.com 会重定向到 voxels.com ， Cryptovoxels 于 2022 年 5 月 3 日更名为 Voxels
 
 Crypto voxels 加密 体素，“加密”一词在大家看来可能具有负面含义，同时也为了将用户群体扩展到更广泛的群体，所以开发公司将其更名为 Voxels 。[参考链接](https://www.globenewswire.com/news-release/2022/05/03/2434939/0/en/Cryptovoxels-Is-Rebranding-to-Voxels-on-May-3-2022.html)
 
@@ -14,13 +18,13 @@ Crypto voxels 加密 体素，“加密”一词在大家看来可能具有负�
 
 | Tutorials |  / |Scripting examples|
 |------|------|------|
-| [Make a Vox Model](Make-a-Vox-Model) |/| [Move/rotate/scale Feature](https://wiki.cryptovoxels.com/Scripting/Examples/Move-rotate-scale-Feature) |
-| [制作穿戴品](Create-a-wearable) |/| [Click trigger](https://wiki.cryptovoxels.com/Scripting/Examples/Click-trigger) |
-| [Edit costume](https://wiki.cryptovoxels.com/Player_customization/Costume_tab) |/| [Turn vox to face player](https://wiki.cryptovoxels.com/Scripting/Examples/Turn) |
-| [Edit skin](https://wiki.cryptovoxels.com/Player_customization/Avatar_skin) |/| [Tic Tac Toe](https://wiki.cryptovoxels.com/Scripting/Examples/TicTacToe) |
-| [Edit Username](Edit-Username) |/| [Keypad Six Digits](https://wiki.cryptovoxels.com/Scripting/Examples/keypad_six_digits) |
-| [Buy a parcel](Buy-a-parcel) |/| [Welcome/Goobye message](https://wiki.cryptovoxels.com/Scripting/Examples/welcome_message) |
-| [Buy a Wearable](Buy-a-Wearable) |/| [A simple door](https://wiki.cryptovoxels.com/Scripting/Examples/Simple-Door) |
+| [制作 vox 模型](Make-a-Vox-Model) |/| [移动/旋转/缩放一个功能](Move-rotate-scale-Feature) |
+| [制作穿戴品](Create-a-wearable) |/| [点击触发器](Click-trigger) |
+| [编辑服装](#Costume_tab) |/| [使 Vox 面对玩家](Turn) |
+| [任务肤色](#Avatar_skin) |/| [井字游戏](TicTacToe) |
+| [编辑用户名](Edit-Username) |/| [六位数字键盘](keypad_six_digits) |
+| [购买地块](Buy-a-parcel) |/| [欢迎/再见 消息](welcome_message) |
+| [购买穿戴品](Buy-a-Wearable) |/| [一个简单的门](Simple-Door) |
 
 ## 地块(Parcels)
 
@@ -42,18 +46,18 @@ Crypto voxels 加密 体素，“加密”一词在大家看来可能具有负�
 
 | Feature | Description | Feature | Description |
 | ------ | ------ | ------ | ------ |
-| <img width='16' src='https://www.cryptovoxels.com/icons/audio.png'/>  [Audio](https://wiki.cryptovoxels.com/features/audio) | 播放 mp3 | <img width='16' src='https://www.cryptovoxels.com/icons/audio.png' /> [Boombox](https://wiki.cryptovoxels.com/features/boombox) |让用户直播音频|
-|<img width='16' src='https://www.cryptovoxels.com/icons/button.png' /> [Button](https://wiki.cryptovoxels.com/features/button) | 脚本使用 | <img width='16' src='https://www.cryptovoxels.com/icons/call-bell.png' /> [Call Bell](https://wiki.cryptovoxels.com/features/call-bell) |来自访客的私信：警告：**Nerfed**|
-|<img width='16' src='https://www.cryptovoxels.com/icons/image.png' />  [Image](https://wiki.cryptovoxels.com/features/image) | 来自 URL 的图片 | <img width='16' src='https://www.cryptovoxels.com/icons/lantern.png' />  [Lantern](https://wiki.cryptovoxels.com/features/lantern) | 灯光发射器 |
-|<img width='16' src='https://www.cryptovoxels.com/icons/megavox.png' /> [Megavox](https://wiki.cryptovoxels.com/features/megavox) | 大型的 `.vox` 模型 | <img width='16' src='https://www.cryptovoxels.com/icons/nft-image.png'  /> [NFT Image](https://wiki.cryptovoxels.com/features/nft-image) | 你自己的 NFTs |
-|<img width='16' src='https://www.cryptovoxels.com/icons/nft-model.png'  /> [NFT Model](https://wiki.cryptovoxels.com/features/nft-model) | 你的 3d vox NFTs |<img width='16' src='https://www.cryptovoxels.com/icons/particle.png'  /> [Particles](https://wiki.cryptovoxels.com/features/particles) | 添加粒子发射器 |
-|<img width='16' src='https://www.cryptovoxels.com/icons/polytext.png' /> [Polytext](https://wiki.cryptovoxels.com/features/polytext) | 3D 文本 | <img width='16' src='https://www.cryptovoxels.com/icons/richtext.png' /> [Richtext](https://wiki.cryptovoxels.com/features/richtext) | 多行文本 |
-|<img width='16' src='https://www.cryptovoxels.com/icons/screen.png' /> [Screen](https://wiki.cryptovoxels.com/features/screen) |Live presenting screen现场演示画面| <img width='16' src='https://www.cryptovoxels.com/icons/sign.png' /> [Sign](https://wiki.cryptovoxels.com/features/sign) |单行文本|
-|<img width='16' src='https://www.cryptovoxels.com/icons/text-input.png' />  [Text Input](https://wiki.cryptovoxels.com/features/text-input) |让用户输入文本进行脚本编写|<img width='16' src='https://www.cryptovoxels.com/icons/video.png' /> [Video](https://wiki.cryptovoxels.com/features/video) |添加短视频|
-|<img width='16' src='https://www.cryptovoxels.com/icons/vid-screen.png' /> [VidScreen](https://wiki.cryptovoxels.com/features/vid-screen) |可编程 64x64 屏幕|<img width='16' src='https://www.cryptovoxels.com/icons/vox-model.png' /> [.VOX](https://wiki.cryptovoxels.com/features/vox-model) |小 .vox 模型|
-|<img width='16' src='https://www.cryptovoxels.com/icons/youtube.png' /> [Youtube](https://wiki.cryptovoxels.com/features/youtube) |内嵌 YouTube 视频|<img width='16' src='https://www.cryptovoxels.com/icons/spawn-point.png' /> [Spawn-point](https://wiki.cryptovoxels.com/features/spawn-point) |出生点|
-|<img width='16' src='https://www.cryptovoxels.com/icons/cube.png' /> [Cube](https://wiki.cryptovoxels.com/features/cube) |一个有纹理的立方体 |<img width='16' src='https://www.cryptovoxels.com/icons/portal.png' /> [Portal](https://wiki.cryptovoxels.com/features/portal) |使用 womps 的传送门 |
-|<img width='16' src='https://www.cryptovoxels.com/icons/poap.png' /> [POAP Dispenser](https://wiki.cryptovoxels.com/features/POAP-Dispenser) |向活动访客提供 POAP。 | <img width='16' src='https://www.cryptovoxels.com/icons/slider-input.png' /> [滑块输入](https://wiki.cryptovoxels.com/features/slider-input) | 允许用户在范围内输入数字
+| <img width='16' src='https://www.cryptovoxels.com/icons/audio.png'/>  [Audio](#audio) | 播放 mp3 | <img width='16' src='https://www.cryptovoxels.com/icons/audio.png' /> [Boombox](#boombox) |让用户直播音频|
+|<img width='16' src='https://www.cryptovoxels.com/icons/button.png' /> [Button](#button) | 脚本使用 | <img width='16' src='https://www.cryptovoxels.com/icons/call-bell.png' /> [Call Bell](#call-bell) |来自访客的私信：警告：**Nerfed**|
+|<img width='16' src='https://www.cryptovoxels.com/icons/image.png' />  [Image](#image) | 来自 URL 的图片 | <img width='16' src='https://www.cryptovoxels.com/icons/lantern.png' />  [Lantern](#lantern) | 灯光发射器 |
+|<img width='16' src='https://www.cryptovoxels.com/icons/megavox.png' /> [Megavox](#megavox) | 大型的 `.vox` 模型 | <img width='16' src='https://www.cryptovoxels.com/icons/nft-image.png'  /> [NFT Image](#nft-image) | 你自己的 NFTs |
+|<img width='16' src='https://www.cryptovoxels.com/icons/nft-model.png'  /> [NFT Model](#nft-model) | 你的 3d vox NFTs |<img width='16' src='https://www.cryptovoxels.com/icons/particle.png'  /> [Particles](#particles) | 添加粒子发射器 |
+|<img width='16' src='https://www.cryptovoxels.com/icons/polytext.png' /> [Polytext](#polytext) | 3D 文本 | <img width='16' src='https://www.cryptovoxels.com/icons/richtext.png' /> [Richtext](#richtext) | 多行文本 |
+|<img width='16' src='https://www.cryptovoxels.com/icons/screen.png' /> [Screen](#screen) |Live presenting screen现场演示画面| <img width='16' src='https://www.cryptovoxels.com/icons/sign.png' /> [Sign](#sign) |单行文本|
+|<img width='16' src='https://www.cryptovoxels.com/icons/text-input.png' />  [Text Input](#text-input) |让用户输入文本进行脚本编写|<img width='16' src='https://www.cryptovoxels.com/icons/video.png' /> [Video](#video) |添加短视频|
+|<img width='16' src='https://www.cryptovoxels.com/icons/vid-screen.png' /> [VidScreen](#vid-screen) |可编程 64x64 屏幕|<img width='16' src='https://www.cryptovoxels.com/icons/vox-model.png' /> [.VOX](#vox-model) |小 .vox 模型|
+|<img width='16' src='https://www.cryptovoxels.com/icons/youtube.png' /> [Youtube](#youtube) |内嵌 YouTube 视频|<img width='16' src='https://www.cryptovoxels.com/icons/spawn-point.png' /> [Spawn-point](#spawn-point) |出生点|
+|<img width='16' src='https://www.cryptovoxels.com/icons/cube.png' /> [Cube](#cube) |一个有纹理的立方体 |<img width='16' src='https://www.cryptovoxels.com/icons/portal.png' /> [Portal](#portal) |使用 womps 的传送门 |
+|<img width='16' src='https://www.cryptovoxels.com/icons/poap.png' /> [POAP Dispenser](#POAP-Dispenser) |向活动访客提供 POAP。 | <img width='16' src='https://www.cryptovoxels.com/icons/slider-input.png' /> [滑块输入](#slider-input) | 允许用户在范围内输入数字
 
 ## 脚本编程(Scrpting)
 

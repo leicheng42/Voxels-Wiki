@@ -1,3 +1,4 @@
+(megavox)=
 # Megavox 巨型Vox
 
 Megavoxes是一个大小为126x126x126 `.vox` 模型，目前每个地块Parcel限制为5个。
