@@ -119,7 +119,7 @@
 
 ![vox-man.png](https://wiki.cryptovoxels.com/costume/vox-man.png)
 
-#### 在Cryptovoxels世界中更换
+### 在Cryptovoxels世界中更换
 将鼠标悬停在右上角的您的姓名或钱包地址上，然后选择**更换服装**。
 ![costume-change1.png](https://wiki.cryptovoxels.com/costume/costume-change1.png =290x)
 
@@ -130,7 +130,7 @@
 > 按C键将自己放入第三人称。
 {.is-info}
 
-#### 在Cryptovoxels网站上更换
+### 在Cryptovoxels网站上更换
 转到[服装选项卡](https://www.cryptovoxels.com/account/costumes)，然后点击您要更换到的服装右边的✔按钮。
 
 ![costume-default.png](https://wiki.cryptovoxels.com/costume/costume-default.png =290x)
