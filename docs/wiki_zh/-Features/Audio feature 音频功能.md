@@ -1,5 +1,5 @@
 (audio)=
-# 音频
+# 音频 Audio
 
 音频功能是一个 MP3 的小播放器。您可以链接到任何 mp3，我们将尝试对其进行流式传输。
 
@@ -37,32 +37,34 @@
 
 ### URL
 
-Links must be `https://` since we force https:// for everything.
 链接必须是 `https://` 开头，因为我们强制所有东西都是  `https://` 。
 
-# Scripting Properties
-# Scripting Properties {.tabset}
-## url
-`String.`; Links must be `https://` and must finish with an audio extension such as `.mp3`
+## 脚本属性
+::::{tab-set}
 
-### get()
+:::{tab-item} url
+
+`String.`; 链接必须是以 `https://` 开头，并缺必须是以音频扩展后缀结尾，例如 `.mp3`
+
+**get()**
 
 ```js
 feature.get('url')
 // returns: "https://..."
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'url':"https://www.myurl.com/file.mp3"})
 ```
 
-### default
+**default**
 
 `""`
+:::
 
-## sprite
+:::{tab-item} sprite
 `Boolean.`
 
 ### get()
@@ -82,7 +84,9 @@ feature.set({'sprite': true})
 
 `false`
 
-## streaming
+:::
+
+:::{tab-item} streaming
 `Boolean.`
 
 ### get()
@@ -101,7 +105,9 @@ feature.set({'streaming': true})
 
 `false`
 
-## autoplay
+:::
+
+:::{tab-item} autoplay
 `Boolean.`
 
 ### get()
@@ -120,7 +126,9 @@ feature.set({'autoplay': true})
 
 `false`
 
-## loop
+:::
+
+:::{tab-item} loop
 `Boolean.`
 
 ### get()
@@ -140,7 +148,9 @@ feature.set({'loop': true})
 
 `false`
 
-## rolloffFactor
+:::
+
+:::{tab-item} rolloffFactor
 `double`; Value ranging from 0 to 5
 
 ### get()
@@ -159,7 +169,9 @@ feature.set({'rolloffFactor': 1.6})
 ### default
 `1.6`
 
-## volume
+:::
+
+:::{tab-item} volume
 `double`; Value ranging from 0 to 1
 
 ### get()
@@ -178,7 +190,9 @@ feature.set({'volume': 0.5})
 ### default
 `0.5`
 
-## type
+:::
+
+:::{tab-item} type
 `String`;
 
 ### get()
@@ -191,7 +205,10 @@ feature.type
 // returns: 'audio'
 ```
 
-# Scripting Methods
+:::
+::::
+
+## 脚本方法
 
 ::::{tab-set}
 
@@ -217,38 +234,3 @@ stops the audio
 :::
 
 ::::
-
-
-::::{tab-set}
-
-:::{tab-item} Label1
-Content 1
-:::
-
-:::{tab-item} Label2
-Content 2
-:::
-
-::::
-
-
-
-# Scripting Methods
-# Scripting Methods {.tabset}
-## play()
-```js
-feature.play()
-```
-plays the audio
-
-## pause()
-```js
-feature.pause()
-```
-pauses the audio
-
-## stop()
-```js
-feature.stop()
-```
-stops the audio

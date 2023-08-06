@@ -3,6 +3,13 @@
 
 要放置功能，您必须位于具有建筑权的地块中，然后按 TAB 键。
 
+<div style="display: flex;">
+    <img src="../../_static/img/Features/Feature_list_1.jpg" style="width: 45%;">
+    <div style="width: 10%;" > 
+    </div>
+    <img src="../../_static/img/Features/Feature_list_2.jpg" style="width: 45%;">
+</div>
+
 功能列表
 
 ```{toctree}

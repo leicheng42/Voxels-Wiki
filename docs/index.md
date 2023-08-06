@@ -68,7 +68,7 @@ wiki_zh/the_world.md
 
 
 ```{toctree}
-:maxdepth: 2
+:maxdepth: 1
 
 wiki_zh/Parcels/Parcels
 ```
