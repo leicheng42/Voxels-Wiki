@@ -1,5 +1,5 @@
 (portal)=
-# Portal 传送门
+# 传送门 Portal
 
 Let users teleport to in-world locations. Portals use womps taken in the past. This gives incentive for the player to go explore the world and take womps.
 让用户传送到世界上的位置。传送门使用过去拍摄的 womp。这会激励玩家去探索世界并获得womps。
@@ -17,5 +17,5 @@ Let users teleport to in-world locations. Portals use womps taken in the past. T
 
 一个 womp 网址。通过在 womp 浏览器中选择 womp 获得。
 
-# Scripting Properties
+## Scripting Properties
 None

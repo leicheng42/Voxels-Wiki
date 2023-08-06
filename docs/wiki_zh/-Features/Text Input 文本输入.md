@@ -1,7 +1,7 @@
 (text-input)=
 > 自 v 5.0 以来已重新引入该功能
 {.is-info}
-# Text Input 文本输入
+# 文本输入 Text Input
 
 让用户输入消息。
 ![text-input-feature.png](https://wiki.cryptovoxels.com/text-input-feature.png)
@@ -15,52 +15,54 @@
 当没有用户输入时显示为占位符的文本。
 
 
-# Scripting Properties
-# Scripting Properties {.tabset}
-## text
+## 脚本属性
+
+::::{tab-set}
+:::{tab-item} text
 `String`; 
 
-### get()
+**get()**
 
 ```js
 feature.get('text')
 // returns: "my text"
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'text':"my text"})
 ```
 
-### default
+**default**
 
 `""`
 
-## placeholder
+:::{tab-item} placeholder
 `String`; 
 
-### get()
+**get()**
 
 ```js
 feature.get('placeholder')
 // returns: "my text"
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'placeholder':"my text"})
 ```
 
-### default
+**default**
 
 `"placeholder"`
+:::
 
-## type
+:::{tab-item} type
 `String`;
 
-### get()
+**get()**
 
 ```js
 feature.get('type')
@@ -69,3 +71,5 @@ feature.type
 
 // returns: 'text-input'
 ```
+:::
+::::

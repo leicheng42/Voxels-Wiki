@@ -1,4 +1,4 @@
-# Collectible model 收藏模型
+# NFT模型 Collectible model
 
 3D显示加密体素收藏品。它有内置的用户界面窗口显示关于NFT的信息。
 
@@ -9,9 +9,11 @@
 ![editor_v7.18.png](https://wiki.cryptovoxels.com/features/[collectible_model]editor_v7.18.png)
 
 
-# Scripting Properties
-# Scripting Properties {.tabset}
-## collectible
+## 脚本属性
+
+::::{tab-set}
+
+:::{tab-item} collectible
 `Object`; An object with multiple properties.
 Properties:
 ```js
@@ -31,27 +33,29 @@ Properties:
 ```
 
 The hash is used to render the vox-model.
-### get()
+
+**get()**
 
 ```js
 feature.get('collectible')
 // returns: [Object Collectible]
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'collectible':myCollectible}) // myCollectible being a collectible object.
  ```
 
-### default
+**default**
 
 `null`
+:::
 
-## type
+:::{tab-item} type
 `String`;
 
-### get()
+**get()**
 
 ```js
 feature.get('type')
@@ -60,3 +64,5 @@ feature.type
 
 // returns: 'collectible-model'
 ```
+:::
+::::

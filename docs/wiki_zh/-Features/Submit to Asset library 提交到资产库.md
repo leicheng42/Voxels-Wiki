@@ -1,4 +1,4 @@
-# Submit to the Asset library 提交到资产库
+# 提交到资产库 Submit to the Asset library
 
 从版本 8 开始，我们现在可以通过资产库向世界上的任何人分享我们的功能（不仅仅是 vox 模型！）。
 

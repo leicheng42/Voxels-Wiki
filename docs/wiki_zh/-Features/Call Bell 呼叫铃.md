@@ -1,5 +1,5 @@
 (call-bell)=
-# Call Bell
+# 呼叫铃 Call Bell
 
 > 自 4.16 版本以来，该功能已被削，不再可用。
 {.is-danger}
@@ -14,12 +14,16 @@
 
 呼叫用户的 discord ID
 
-## Properties
+## 脚本属性
 
-### feature.discordId
+::::{tab-set}
 
+:::{tab-item} feature.discordId
 String.
+:::
 
-### feature.soundId
-
+:::{tab-item} feature.soundId
 Integer; the ID of the sound the button makes when clicked. This can be an integer in the range of 0 - 14.
+:::
+
+::::

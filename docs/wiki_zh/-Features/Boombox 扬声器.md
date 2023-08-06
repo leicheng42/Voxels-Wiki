@@ -1,5 +1,5 @@
 (boombox)=
-# Boombox 扬声器
+# 扬声器 Boombox
 扬声器可让您将声音传输到世界中。要使用扬声器，只需单击它，然后从弹出窗口中选择`开始广播 Start Broadcasting` 。
 
 ![boombox-feature-double.png](https://wiki.cryptovoxels.com/boombox-feature-double.png)
@@ -11,29 +11,35 @@
 当玩家离开音频播放器时声音消失的速度。
 值在 0 到 5 之间。
 
-# Scripting Properties
-# Scripting Properties {.tabset}
-## rollOffFactor
+## 脚本属性
+
+::::{tab-set}
+
+:::{tab-item} rollOffFactor
 `Double`; Value ranging from 0 to 5
 
-### get()
+**get()**
 
 ```js
 feature.get('rolloffFactor')
 // returns: 1.6
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'rolloffFactor':1.6})
 ```
 
-### default
+**default**
 
 `1`
 
-# How to use?
+:::
+
+::::
+
+## How to use?
 Click on the Boombox and hit start Broadcasting
 ![boombox-broadcast.png](https://wiki.cryptovoxels.com/boombox-broadcast.png)
 

@@ -1,5 +1,5 @@
 (video)=
-# Video 视频
+# 视频 Video
 
 添加可点击播放的短视频。
 
@@ -23,52 +23,55 @@
 
 
 
-# Scripting Properties
-# Scripting Properties {.tabset}
-## url
+## 脚本属性
+
+::::{tab-set}
+:::{tab-item} url
 `String`; Has to start with `https://` and has to end with a video extension such as `.mp4`.
 
-### get()
+**get()**
 
 ```js
 feature.get('url')
 // returns: "https://..."
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'url':"https://..."})
 ```
 
-### default
+**default**
 
 `""`
+:::
 
-## previewUrl
+:::{tab-item} previewUrl
 `String`; Links must be `https://` and must either be a `.png,.gif,.jpg`.
 
-### get()
+**get()**
 
 ```js
 feature.get('previewUrl')
 // returns: "https://..."
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'previewUrl':"https://..."})
 ```
 
-### default
+**default**
 
 `""`
+:::
 
-## type
+:::{tab-item} type
 `String`;
 
-### get()
+**get()**
 
 ```js
 feature.get('type')
@@ -77,26 +80,31 @@ feature.type
 
 // returns: 'video'
 ```
+:::
+::::
 
 
-# Scripting methods
-# Scripting methods {.tabset}
+## 脚本方法
 
-## play()
+::::{tab-set}
+:::{tab-item} play()
 
 ```js
 feature.play()
 ```
 plays the video
+:::
 
-## pause()
+:::{tab-item} pause()
 ```js
 feature.pause()
 ```
 pauses the video
+:::
 
-## stop()
+:::{tab-item} stop()
 ```js
 feature.stop()
 ```
 stops the video
+:::

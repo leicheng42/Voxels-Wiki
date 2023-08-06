@@ -1,5 +1,5 @@
 (image)=
-# Image 图像
+# 图像 Image
 
 来自 URL 的二维图像。
 
@@ -42,174 +42,182 @@ If ticked, the image will be stretched to fit into the target rectangular area, 
 
 设置该功能是否为触发器。
 
-# Scripting Properties
-# Scripting Properties {.tabset}
-## url
+## 脚本属性
+
+::::{tab-set}
+:::{tab-item} url
 `String`; Links must be `https://` and must finish with an extension such as `.jpg/.gif/.png`.
 
-### get()
+**get()**
 
 ```js
 feature.get('url')
 // returns: "https://..."
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'url':"https://www.myurl.com/file.png"})
 ```
 
-### default
+**default**
 
 `""`
+:::
 
-## link
+:::{tab-item} link
 `String`; Links must be `https://`.
 
-### get()
+**get()**
 
 ```js
 feature.get('link')
 // returns: "https://..."
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'link':"https://www.myurl.com/"})
 ```
 
-### default
+**default**
 
 `""`
+:::
 
 
-## blendMode
+:::{tab-item} blendMode
 `String`
 
-### get()
+**get()**
 
 ```js
 feature.get('blendMode')
 // returns: 'Combine'
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'blendMode': 'Combine'})
 ```
 
-### default
+**default**
 
 `"Multiply"`
+:::
 
-## updateDaily
+:::{tab-item} updateDaily
 `Boolean.`
 
-### get()
+**get()**
 
 ```js
 feature.get('updateDaily')
 // returns: false
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'updateDaily': true})
 ```
 
-### default
+**default**
 
 `false`
 
-## transparent
+:::{tab-item} transparent
 `Boolean.`
 
-### get()
+**get()**
 
 ```js
 feature.get('transparent')
 // returns: false
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'transparent': true})
 ```
 
-### default
+**default**
 
 `false`
+:::
 
-## stretched
+:::{tab-item} stretched
 `Boolean.`
 
-### get()
+**get()**
 
 ```js
 feature.get('stretched')
 // returns: false
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'stretched': true})
 ```
 
-### default
+**default**
 
 `false`
+:::
 
 
-## uScale
+:::{tab-item} uScale
 `Integer`
 
-### get()
+**get()**
 
 ```js
 feature.get('uScale')
 // returns: 1
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'uScale': 1})
 ```
 
-### default
+**default**
 
 `1`
+:::
 
-## vScale
+:::{tab-item} vScale
 `Integer`
 
-### get()
+**get()**
 
 ```js
 feature.get('vScale')
 // returns: 1
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'vScale': 1})
 ```
 
-### default
+**default**
 
 `1`
+:::
 
-## type
+:::{tab-item} type
 `String`;
 
-### get()
+**get()**
 
 ```js
 feature.get('type')
@@ -218,4 +226,6 @@ feature.type
 
 // returns: 'image'
 ```
+:::
+::::
 

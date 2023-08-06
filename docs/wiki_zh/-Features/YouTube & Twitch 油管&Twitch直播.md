@@ -1,5 +1,5 @@
 (youtube)=
-# YouTube / Twitch 油管&Twitch直播
+# YouTube/Twitch 
 
 嵌入 YouTube 视频/直播 或 Twitch 直播。
 
@@ -21,72 +21,76 @@
 
 `（可选）` 让用户为视频设置自定义缩略图。
 
-# Scripting Properties
-# Scripting Properties {.tabset}
-## url
+## 脚本属性
+
+::::{tab-set}
+:::{tab-item} url
 `String`; Links must be `https://` and must either be a `youtube, twitch, soundcloud, spotify`.
 
-### get()
+**get()**
 
 ```js
 feature.get('url')
 // returns: "https://..."
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'url':"https://www.youtube.com/?v=..."})
 ```
 
-### default
+**default**
 
 `""`
+:::
 
-## previewUrl
+:::{tab-item} previewUrl
 `String`; Links must be `https://` and must either be a `.png,.gif,jpg`.
 
-### get()
+**get()**
 
 ```js
 feature.get('previewUrl')
 // returns: "https://..."
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'previewUrl':"https://..."})
 ```
 
-### default
+**default**
 
 `""`
+:::
 
-## screenRatio
+:::{tab-item} screenRatio
 `String`; Links must be `https://` and must either be a `.png,.gif,jpg`.
 
-### get()
+**get()**
 
 ```js
 feature.get('screenRatio')
 // returns: "43"
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'screenRatio':"169"})
 ```
 
-### default
+**default**
 
 `"169"`
+:::
 
-## type
+:::{tab-item} type
 `String`;
 
-### get()
+**get()**
 
 ```js
 feature.get('type')
@@ -95,19 +99,23 @@ feature.type
 
 // returns: 'youtube'
 ```
+:::
+::::
 
-# Scripting methods
-# Scripting methods {.tabset}
+## 脚本方法
 
-## play()
-
+::::{tab-set}
+:::{tab-item} play()
 ```js
 feature.play()
 ```
 plays the video
+:::
 
-## feature.pause()
+:::{tab-item} feature.pause()
 ```js
 feature.pause()
 ```
 pauses the video
+:::
+::::

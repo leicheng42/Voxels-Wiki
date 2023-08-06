@@ -1,5 +1,5 @@
 (cube)=
-# Cube 立方体
+# 立方体 Cube
 
 立方体功能是一个简单的立方体网格，您可以对其更换纹理或着色。
 
@@ -21,72 +21,78 @@
 
 `(可选)`;  允许您更改立方体的颜色。
 
-# Scripting Properties
-# Scripting Properties {.tabset}
-## url
+## 脚本属性
+
+::::{tab-set}
+:::{tab-item} url
 `String`; Links must be `https://` and must finish with an image extension.
 
-### get()
+**get()**
 
 ```js
 feature.get('url')
 // returns: "https://..."
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'url':"https://www.myurl.com/file.png"})
 ```
 
-### default
+**default**
 
 `""`
+:::
 
-## Color
+:::{tab-item} Color
 `String`; An Hex color string such as `#000`.
 
-### get()
+**get()**
 
 ```js
 feature.get('color')
 // returns: "#ffffff"...
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'color':"#4287f5"})
 ```
 
-### default
+**default**
 
 `"#000000"`
+:::
 
-## collidable
+
+:::{tab-item} collidable
+collidable
 `Boolean`
 
-### get()
+**get()**
 
 ```js
 feature.get('collidable')
 // returns: false
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'collidable': true})
 ```
 
-### default
+**default**
 
 `false`
+:::
 
-## type
+:::{tab-item} type
 `String`;
 
-### get()
+**get()**
 
 ```js
 feature.get('type')
@@ -95,3 +101,5 @@ feature.type
 
 // returns: 'cube'
 ```
+:::
+::::

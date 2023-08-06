@@ -1,19 +1,24 @@
 (vid-screen)=
-# VidScreen 显示屏
+# 游戏屏幕 VidScreen
 
 VidScreen 是一个可编程的 64x64 屏幕，您可以使用箭头键“a”和“b”与其进行交互。
 
 ![vid-screen-example.png](https://wiki.cryptovoxels.com/vid-screen-example.png)
 
-## Scripting Properties
+## 脚本属性
 
-### feature.screen
+::::{tab-set}
+:::{tab-item} feature.screen
+
+**feature.screen**
 
 This is a 64 wide x 64 high x 3 bytes (r, g, b) array that you can use to draw onto the screen.
 
-### feature.screenWidth
+**feature.screenWidth**
 
-### feature.screenHeight
+**feature.screenHeight**
+:::
+::::
 
 ## Events
 

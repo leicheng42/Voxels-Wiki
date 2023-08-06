@@ -1,5 +1,5 @@
 (vox-model)=
-# Vox
+# 小模型 Vox
 
 Vox 是小型 (32x32x32) .vox 型号，目前每个地块仅限 200 个。这些通常是使用 [Magicavoxel](https://ephtracy.github.io/) 制作的。
 
@@ -32,73 +32,77 @@ Vox 是小型 (32x32x32) .vox 型号，目前每个地块仅限 200 个。这些
 *如果您的 vox 颜色超过 5 种，则不会出现此选项。*
 
 
-# Scripting Properties
-# Scripting Properties {.tabset}
-## url
+## 脚本属性
+
+::::{tab-set}
+:::{tab-item} url
 `String`; Links must be `https://` and must finish with a vox extension `.vox`
 Has to link to a 32x32x32 vox model or smaller.
 
-### get()
+**get()**
 
 ```js
 feature.get('url')
 // returns: "https://..."
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'url':"https://www.myurl.com/file.vox"})
 ```
 
-### default
+**default**
 
 `""`
+:::
 
-## link
+:::{tab-item} link
 `String`; Links must be `https://`.
 
-### get()
+**get()**
 
 ```js
 feature.get('link')
 // returns: "https://..."
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'link':"https://www.myurl.com/"})
 ```
 
-### default
+**default**
 
 `""`
+:::
 
-## collidable
+:::{tab-item} collidable
 `Boolean`
 
-### get()
+**get()**
 
 ```js
 feature.get('collidable')
 // returns: false
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'collidable': true})
 ```
 
-### default
+**default**
 
 `false`
+:::
 
-## type
+:::{tab-item} type
 `String`;
 
-### get()
+**get()**
 
 ```js
 feature.get('type')
@@ -107,3 +111,5 @@ feature.type
 
 // returns: 'vox-model'
 ```
+:::
+::::

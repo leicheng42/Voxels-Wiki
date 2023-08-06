@@ -1,5 +1,5 @@
 (lantern)=
-# Lantern 灯笼
+# 灯笼 Lantern
 
 在您的地块中会发光的功能。灯光的颜色是自定义的。
 此功能是在版本v4.6.0中添加的。
@@ -22,7 +22,7 @@
 
 灯光发射的强度。
 
-## Scripting properties
+## 脚本属性
 
 > Lanterns are not scriptable yet!
 {.is-warning}

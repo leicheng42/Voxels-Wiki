@@ -1,5 +1,5 @@
 (sign)=
-# Sign 标志
+# 标志牌 Sign
 
 符号功能允许您显示一行文本。但与 [Richtext](https://wiki.cryptovoxels.com/features/richtext) 不同，它们可以用作超链接。
 ![sign-example.png](https://wiki.cryptovoxels.com/sign-example.png)
@@ -36,112 +36,117 @@
 
 背景颜色
 
-# Scripting Properties
-# Scripting Properties {.tabset}
-## text
+## 脚本属性
+
+::::{tab-set}
+:::{tab-item} text
 `String`; 
 
-### get()
+**get()**
 
 ```js
 feature.get('text')
 // returns: "my line of text"
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'text':"my line of text"})
 ```
 
-### default
+**default**
 
 `""`
+:::
 
-## link
+:::{tab-item} link
 `String`; 
 
-### get()
+**get()**
 
 ```js
 feature.get('link')
 // returns: "https://..."
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'link':"https://..."})
 ```
 
-### default
+**default**
 
 `""`
+:::
 
-## fontSize
+:::{tab-item} fontSize
 `Integer`; 
 
-### get()
+**get()**
 
 ```js
 feature.get('fontSize')
 // returns: 25
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'fontSize':25})
 ```
 
-### default
+**default**
 
 `25`
 
-## color
+:::{tab-item} color
 `String` -hexadecimal; 
 
-### get()
+**get()**
 
 ```js
 feature.get('color')
 // returns: "#00000"
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'color':"#fcba03"})
 ```
 
-### default
+**default**
 
 `"#00000"`
+:::
 
-## background
+:::{tab-item} background
 `String` -hexadecimal; 
 
-### get()
+**get()**
 
 ```js
 feature.get('background')
 // returns: "#00000"
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'background':"#fcba03"})
 ```
 
-### default
+**default**
 
 `"#fffff"`
+:::
 
-## type
+:::{tab-item} type
 `String`;
 
-### get()
+**get()**
 
 ```js
 feature.get('type')
@@ -150,6 +155,8 @@ feature.type
 
 // returns: 'sign'
 ```
+:::
+::::
 
 
 

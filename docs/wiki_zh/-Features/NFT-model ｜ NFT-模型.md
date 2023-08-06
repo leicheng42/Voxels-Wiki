@@ -1,5 +1,5 @@
 (nft-model)=
-# NFT-model ｜ NFT-模型
+# NFT模型 ｜ NFT-模型
 
 允许您使用 Opensea 链接在世界中显示 3d vox 模型。它有一个内置的 GUI 菜单，显示有关 nft 的信息。
 
@@ -16,33 +16,35 @@ nft 的 Opensea URL。
 
 如果没有不是，它将显示一个信息较少的菜单。
 
-# Scripting Properties
-# Scripting Properties {.tabset}
-## url
+## 脚本属性
+
+::::{tab-set}
+:::{tab-item} url
 `String`; Links must be `https://` and must be a link from opensea.
 eg: `https://opensea.io/assets/0xa58b5224e2fd94020cb2837231b2b0e4247301a6/3247`
 
-### get()
+**get()**
 
 ```js
 feature.get('url')
 // returns: "https://..."
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'url':"https://opensea.io/assets/0xa58b5224e2fd94020cb2837231b2b0e4247301a6/3247"})
 ```
 
-### default
+**default**
 
 `""`
+:::
 
-## type
+:::{tab-item} type
 `String`;
 
-### get()
+**get()**
 
 ```js
 feature.get('type')
@@ -51,3 +53,5 @@ feature.type
 
 // returns: 'nft-model'
 ```
+:::
+::::

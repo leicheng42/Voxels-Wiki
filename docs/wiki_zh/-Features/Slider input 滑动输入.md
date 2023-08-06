@@ -1,5 +1,5 @@
 (slider-input)=
-# Slider Input 滑动输入
+# 滑块输入 Slider Input
 
 让用户输入一定范围内的数值。
 
@@ -12,93 +12,98 @@
 
 滑块输入上方的文本。
 
-# Scripting Properties
-# Scripting Properties {.tabset}
-## value
+## 脚本属性
+
+::::{tab-set}
+:::{tab-item} value
 `String`; 
 
-### get()
+**get()**
 
 ```js
 feature.get('value')
 // returns: the value of the slider
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'value':0.2})
 ```
 
-### default
+**default**
 
 `0.25`
+:::
 
-## text
+:::{tab-item} text
 `String`; 
 
-### get()
+**get()**
 
 ```js
 feature.get('text')
 // returns the text above the slider
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'text':"my text"})
 ```
 
-### default
+**default**
 
 `""`
+:::
 
-## minimum
+:::{tab-item} minimum
 `number`; 
 
-### get()
+**get()**
 
 ```js
 feature.get('minimum')
 // returns: the minimum value of the slider
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'minimum':0.01}) // a minimum of 0 will not work
 ```
 
-### default
+**default**
 
 `0.01`
+:::
 
-## maximum
+:::{tab-item} maximum
 `number`; 
 
-### get()
+**get()**
 
 ```js
 feature.get('maximum')
 // returns: the maximum value of the slider
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'maximum':1})
 ```
 
-### default
+**default**
 
 `1`
+:::
 
 
-## type
+:::{tab-item} type
 `String`;
 
-### get()
+**get()**
 
 ```js
 feature.get('type')
@@ -107,3 +112,5 @@ feature.type
 
 // returns: 'slider-input'
 ```
+:::
+::::

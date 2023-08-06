@@ -1,5 +1,5 @@
 (nft-image)=
-# NFT Image ｜ NFT 图像
+# NFT 图像 NFT Image 
 
 For NFTs you own, the NFT image will appear with a shiny frame.
 对您拥有的 NFT，NFT 图像将带有闪亮的边框。
@@ -34,95 +34,100 @@ For NFTs you own, the NFT image will appear with a shiny frame.
 
 如果勾选，点击此 NFT 将显示一个 HTML UI，其中包含有关 NFT 的信息
 
-# Scripting Properties
-# Scripting Properties {.tabset}
-## url
+## 脚本属性
+
+::::{tab-set}
+:::{tab-item} url
 `String`; Links must be `https://`.
 
-### get()
+**get()**
 
 ```js
 feature.get('url')
 // returns: "https://..."
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'url':"https://www.opensea.io/"})
 ```
 
-### default
+**default**
 
 `""`
+:::
 
-## stretch
+:::{tab-item} stretch
 `Boolean`; 
 
-### get()
+**get()**
 
 ```js
 feature.get('stretch')
 // returns: "https://..."
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'stretch':true})
 ```
 
-### default
+**default**
 
 `false`
+:::
 
-## blendMode
+:::{tab-item} blendMode
 `ImageMode`; An enum :
 - 'Multiply'
 - 'Screen'
 - 'Combine'
 
-### get()
+**get()**
 
 ```js
 feature.get('blendMode')
 // returns: "Multiply"
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'blendMode':"Combine"})
 ```
 
-### default
+**default**
 
 `Combine`
+:::
 
-## emissiveColorIntensity
+:::{tab-item} emissiveColorIntensity
 `number`; 
 
-### get()
+**get()**
 
 ```js
 feature.get('emissiveColorIntensity')
 // returns: "0.5"
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'emissiveColorIntensity':0.5})
 ```
 
-### default
+**default**
 
 `0.5`
+:::
 
-## type
+:::{tab-item} type
 `String`;
 
-### get()
+**get()**
 
 ```js
 feature.get('type')
@@ -131,15 +136,18 @@ feature.type
 
 // returns: 'nft-image'
 ```
+:::
+::::
 
-# Scripting Methods
-# Scripting Methods {.tabset}
-## getNftData
+## 脚本方法
+
+::::{tab-set}
+:::{tab-item} getNftData
 A function that returns the opensea nftData of the specified feature.
 
 - Arguments: callback (optional); a callback function to handle the nft's data.
 
-### example
+**example**
 
 ```js
 feature.getNftData(console.log)
@@ -153,7 +161,7 @@ asset_contract: {...}
 */
 ```
 
-### example 2
+**example 2**
 
 ```js
 
@@ -165,4 +173,6 @@ feature.getNftData(showContractAddress)
 /* returns: 0x1das1rs6dfv...  */
 
 ```
+:::
+::::
 

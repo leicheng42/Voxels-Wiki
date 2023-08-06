@@ -1,5 +1,5 @@
 (button)=
-# Button 按钮
+# 按钮 Button
 
 当你点击按钮时，按钮会被按下并发出声音。按钮可以用来触发脚本。
 
@@ -17,31 +17,36 @@
 
 有 14 种不同的按钮声音可供选择。
 
-# Scripting Properties
-# Scripting Properties {.tabset}
-## color
+## 脚本属性
+
+::::{tab-set}
+
+:::{tab-item} color
 `String.`; Options are 'white', 'red', 'green', and 'blue'.
 
-### get()
+**get()**
 
 ```js
 feature.get('color')
 // returns: "red"
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'color':"blue"})
 ```
 
-### default
+**default**
 
 `"red"`
 
-## soundId
+:::
+
+:::{tab-item} soundId
 `Integer`; can be an integer in the range of 0 - 14.
 
+```markdown
 `'-1'` - None
 `'0'` - ding dong
 `'1'` - pong
@@ -59,29 +64,32 @@ feature.set({'color':"blue"})
 `'13'` - tshlshlsh - sounds like a notes counter
 `'14'` - miaaaaaa - sounds like a cat being harassed
 `'15'` - miaoowww - sounds like a hungry cat
+```
 
-### get()
+**get()**
 
 ```js
 feature.get('soundId')
 // returns: "0"
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'soundId':"-1"})
 //Remember the soundId has to be a String
 ```
 
-### default
+**default**
 
 `"0"`
 
-## type
+:::
+
+:::{tab-item} type
 `String`; 
 
-### get()
+**get()**
 
 ```js
 feature.get('type')
@@ -89,8 +97,10 @@ feature.get('type')
 feature.type
 // returns: "button"
 ```
+:::
+::::
 
-# How to use
+## 怎样使用
 Using the scripting field, you can listen to clicks with
 
 ```js

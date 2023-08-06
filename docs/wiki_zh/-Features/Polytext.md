@@ -1,5 +1,5 @@
 (polytext)=
-# Polytext
+# 立体字 Polytext
 
 ![polytext-example.png](https://wiki.cryptovoxels.com/polytext-example.png)
 
@@ -21,53 +21,55 @@ polytext是否会用黑边勾勒出轮廓。
 
 ![polytext-edges.png](https://wiki.cryptovoxels.com/polytext-edges.png)
 
-# Scripting Properties
-# Scripting Properties {.tabset}
-## url
+## 脚本属性
+
+::::{tab-set}
+:::{tab-item} url
 `String`; 
 
-### get()
+**get()**
 
 ```js
 feature.get('text')
 // returns: "My new text"
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'text':"My new text"})
 ```
 
-### default
+**default**
 
 `""`
+:::
 
-
-## edges
+:::{tab-item} edges
 `Boolean`
 
-### get()
+**get()**
 
 ```js
 feature.get('edges')
 // returns: false
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'edges': true})
 ```
 
-### default
+**default**
 
 `false`
+:::
 
-## type
+:::{tab-item} type
 `String`; 
 
-### get()
+**get()**
 
 ```js
 feature.get('type')
@@ -75,4 +77,6 @@ feature.get('type')
 feature.type
 // returns: "polytext"
 ```
+:::
+::::
 

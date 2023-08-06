@@ -1,4 +1,4 @@
-# Platform 平台
+# 平台 Platform 
 
 ![platform-feature.png](https://wiki.cryptovoxels.com/platform-feature.png)
 

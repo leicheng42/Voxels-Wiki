@@ -1,5 +1,5 @@
 (richtext)=
-# Richtext 富文本
+# 文本 Richtext
 
 Richtext 功能允许您显示多行格式化文本。但与 [signs](https://wiki.cryptovoxels.com/features/sign) 不同，它们不能用作超链接。
 
@@ -24,71 +24,76 @@ Richtext 功能允许您显示多行格式化文本。但与 [signs](https://wik
 当勾选时，文本将以白色显示在黑色背景上，而不是相反。
 
 
-# Scripting Properties
-# Scripting Properties {.tabset}
-## text
+## 脚本属性
+
+::::{tab-set}
+:::{tab-item} text
 `String`; 
 
-### get()
+**get()**
 
 ```js
 feature.get('text')
 // returns: "https://..."
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'text':"my paragraph"})
 ```
 
-### default
+**default**
 
 `""`
-## blendMode
+:::
+
+:::{tab-item} blendMode
 `String`
 
-### get()
+**get()**
 
 ```js
 feature.get('blendMode')
 // returns: 'Combine'
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'blendMode': 'Combine'})
 ```
 
-### default
+**default**
 
 `"Multiply"`
+:::
 
-## inverted
+:::{tab-item} inverted
 `Boolean`; 
 
-### get()
+**get()**
 
 ```js
 feature.get('inverted')
 // returns: false
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'inverted': true})
 ```
 
-### default
+**default**
 
 `false`
+:::
 
-## type
+:::{tab-item} type
 `String`;
 
-### get()
+**get()**
 
 ```js
 feature.get('type')
@@ -97,5 +102,7 @@ feature.type
 
 // returns: 'richtext'
 ```
+:::
+::::
 
 

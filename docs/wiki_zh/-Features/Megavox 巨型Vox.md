@@ -1,5 +1,5 @@
 (megavox)=
-# Megavox 巨型Vox
+# 大模型 Megavox
 
 Megavoxes是一个大小为126x126x126 `.vox` 模型，目前每个地块Parcel限制为5个。
 
@@ -17,73 +17,77 @@ Megavoxes是一个大小为126x126x126 `.vox` 模型，目前每个地块Parcel�
 
 `（可选）`；使 megavox 成为可点击的链接。
 
-# Scripting Properties
-# Scripting Properties {.tabset}
-## url
+## 脚本属性
+
+::::{tab-set}
+:::{tab-item} url
 `String`; Links must be `https://` and must finish with a vox extension `.vox`
 Has to link to a 126x126x126 vox model.
 
-### get()
+**get()**
 
 ```js
 feature.get('url')
 // returns: "https://..."
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'url':"https://www.myurl.com/file.vox"})
 ```
 
-### default
+**default**
 
 `""`
+:::
 
-## link
+:::{tab-item} link
 `String`; Links must be `https://`.
 
-### get()
+**get()**
 
 ```js
 feature.get('link')
 // returns: "https://..."
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'link':"https://www.myurl.com/"})
 ```
 
-### default
+**default**
 
 `""`
+:::
 
-## collidable
+:::{tab-item} collidable
 `Boolean`
 
-### get()
+**get()**
 
 ```js
 feature.get('collidable')
 // returns: false
 ```
 
-### set()
+**set()**
 
 ```js
 feature.set({'collidable': true})
 ```
 
-### default
+**default**
 
 `false`
+:::
 
-## type
+:::{tab-item} type
 `String`;
 
-### get()
+**get()**
 
 ```js
 feature.get('type')
@@ -92,3 +96,5 @@ feature.type
 
 // returns: 'megavox'
 ```
+:::
+::::
