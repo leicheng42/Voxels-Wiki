@@ -23,6 +23,11 @@
 
 自定义粒子图像的URL；如果未提供，则将使用默认粒子图像（灰色方块）。
 
+```{note}
+示例链接
+https://www.voxels.com/images/newlogo.png
+```
+
 ### Color 1 and Color 2 颜色1和颜色2
 
 新粒子的初始颜色取决于这些参数的值 - 颜色将位于两个给定颜色之间的范围内。

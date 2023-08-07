@@ -11,6 +11,11 @@
 
 ### Opensea Asset URL ｜ Opensea 资产 URL
 
+```{note}
+示例链接，可以在 https://opensea.io/ 创建自己的NFTs
+https://opensea.io/assets/ethereum/0x495f947276749ce646f68ac8c248420045cb7b5e/112862529825773578657241264150888633317941584966682201326871688929680778330122/
+```
+
 复制 OpenSea 中的资产 URL。
 
 ### stretch 拉伸

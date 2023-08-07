@@ -18,7 +18,7 @@ Megavoxes是一个大小为126x126x126 `.vox` 模型，目前每个地块Parcel�
 
 ```{note}
 链接示例
-``
+`https://raw.githubusercontent.com/leicheng42/Voxels-Wiki/main/docs/_static/img/magevoxels_monu1.vox`
 ```
 
 ### Hyperlink 超链接

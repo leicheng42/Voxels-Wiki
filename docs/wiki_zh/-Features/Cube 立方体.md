@@ -13,6 +13,11 @@
 
 纹理图片的 URL。
 
+```{note}
+示例链接
+https://www.voxels.com/images/newlogo.png
+```
+
 ### Collidable 可触碰
 
 `(可选)`;  让立方体成为可触碰对象

@@ -15,6 +15,11 @@
 
 图像的URL，URL 必须是以 `https://...` 开头。
 
+```{note}
+示例链接
+https://www.voxels.com/images/newlogo.png
+```
+
 ### Hyperlink 超链接
 
 `(可选)`; 让图像成为可点击的链接。

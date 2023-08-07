@@ -5,11 +5,11 @@
 只有贡献者和所有者才能看到它！
 每个地块的生成点也被限制为 1 个。
 
-![spawn_point_v4.55.png](https://wiki.cryptovoxels.com/features/spawn_point_v4.55.png =70%x){.align-center}
+<img src="https://wiki.cryptovoxels.com/features/spawn_point_v4.55.png" alt="spawn_point_v4.55.png" width="300px">
 
 ## Editor 编辑器
 
-![editor_v4.55.png](https://wiki.cryptovoxels.com/features/[spawn_point]editor_v4.55.png =30%x)
+<img src="https://wiki.cryptovoxels.com/features/[spawn_point]editor_v4.55.png" alt="editor_v4.55.png" width="300px">
 
 ## 脚本属性
 
