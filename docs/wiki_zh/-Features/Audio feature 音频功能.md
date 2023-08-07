@@ -14,6 +14,11 @@
 
 支持长达 10 分钟的 MP3。 Opensea 音频 NFT 也可以。链接必须是 `https://` 开头，因为我们强制所有东西都是  `https://` 。同时也可以选择上传选项卡<img src="../../_static/img/Features/upload_mp3.png" alt="audio-feature" width="70px">，上传音频。
 
+```{note}
+音频链接示例
+`https://drive.google.com/u/0/uc?id=1vkRP84JlOo1fdn2_h-nc845kXD89J6g9&export=download`
+```
+
 
 ### Sprite 小画面
 

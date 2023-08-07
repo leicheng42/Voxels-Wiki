@@ -16,9 +16,19 @@ Megavoxes是一个大小为126x126x126 `.vox` 模型，目前每个地块Parcel�
 
 `.vox` 文件的 URL。
 
+```{note}
+链接示例
+``
+```
+
 ### Hyperlink 超链接
 
 `（可选）`；使 megavox 成为可点击的链接。
+
+```{note}
+链接示例：（链接到Voxels说明文档）
+`https://voxels-wiki.readthedocs.io/`
+```
 
 ## 脚本属性
 

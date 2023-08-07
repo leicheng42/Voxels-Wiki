@@ -13,6 +13,11 @@ Vox 是小型 (32x32x32) .vox 型号，目前每个地块仅限 200 个。这些
 
 `.vox` 文件的 URL。
 
+```{note}
+模型示例：
+`https://cdn.discordapp.com/attachments/573736707984457738/733461614107426836/aliem.vox`
+```
+
 ### Hyperlink 超链接
 
 `（可选）`；使 megavox 成为可点击的链接。

@@ -3,7 +3,7 @@
 
 Richtext 功能允许您显示多行格式化文本。但与 [signs](https://wiki.cryptovoxels.com/features/sign) 不同，它们不能用作超链接。
 
-![richtext-example.png](https://wiki.cryptovoxels.com/richtext-example.png)
+<img src="https://wiki.cryptovoxels.com/richtext-example.png" alt="richtext-example.png" width="300px">
 
 ## Editor 编辑器
 
