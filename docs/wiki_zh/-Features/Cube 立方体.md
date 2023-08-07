@@ -3,15 +3,15 @@
 
 立方体功能是一个简单的立方体网格，您可以对其更换纹理或着色。
 
-![example.png](https://wiki.cryptovoxels.com/features/[cube-feature]example.png)
+<img src="../../_static/img/Features/Cube_example.png" alt="cube" width="300px">
 
 ## Editor 编辑器
 
-![editor_5.57.png](https://wiki.cryptovoxels.com/features/[cube-feature]editor_5.57.png)
+![Cube_editor](../../_static/img/Features/Cube_editor.png)
 
 ### URL
 
-纹理图像的 URL。
+纹理图片的 URL。
 
 ### Collidable 可触碰
 

@@ -7,7 +7,7 @@
 
 ## Editor 编辑器
 
-![button-editor.png](https://wiki.cryptovoxels.com/button-editor.png)
+![Alt text](../../_static/img/Features/Button_editor.png)
 
 ### Color 颜色
 

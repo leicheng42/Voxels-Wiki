@@ -1,7 +1,6 @@
 (portal)=
 # 传送门 Portal
 
-Let users teleport to in-world locations. Portals use womps taken in the past. This gives incentive for the player to go explore the world and take womps.
 让用户传送到世界上的位置。传送门使用过去拍摄的 womp。这会激励玩家去探索世界并获得womps。
 
 ![example.5.57.png](https://wiki.cryptovoxels.com/features/[portal]example.5.57.png){.align-center}

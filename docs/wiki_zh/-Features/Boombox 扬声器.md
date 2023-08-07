@@ -1,6 +1,6 @@
 (boombox)=
 # 扬声器 Boombox
-扬声器可让您将声音传输到世界中。要使用扬声器，只需单击它，然后从弹出窗口中选择`开始广播 Start Broadcasting` 。
+扬声器可让您将声音传输到世界中。要使用扬声器，只需单击它，然后从弹出窗口中选择`Start Broadcasting 开始广播` 。
 
 ![boombox-feature-double.png](https://wiki.cryptovoxels.com/boombox-feature-double.png)
 ## 编辑器

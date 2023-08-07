@@ -12,8 +12,10 @@ Richtext 功能允许您显示多行格式化文本。但与 [signs](https://wik
 ### Text 文本
 
 您要显示的文本，采用 Markdown 格式。
-> 可以使用 css 来设置文本样式，方法是在文本后面放置下面类似的内容：`{:style="color:red;background:green;font-size:18px"}`
-{.is-info}
+```{note}
+可以使用 css 来设置文本样式，方法是在文本后面放置下面类似的内容：
+`{:style="color:red;background:green;font-size:18px"}`
+```
 
 ### Blend mode 混合模式
 

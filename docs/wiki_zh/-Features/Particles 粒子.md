@@ -5,7 +5,7 @@
 
 ## Editor 编辑器
 
-![particles-editor.png](https://wiki.cryptovoxels.com/particles-editor.png)
+![particles-editor.png](../../_static/img/Features/particles-editor.png)
 
 ### Emit rate 发射率
 

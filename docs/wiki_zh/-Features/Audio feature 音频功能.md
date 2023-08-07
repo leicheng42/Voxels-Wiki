@@ -1,21 +1,29 @@
 (audio)=
 # 音频 Audio
 
-音频功能是一个 MP3 的小播放器。您可以链接到任何 mp3，我们将尝试对其进行流式传输。
+音频功能是一个 MP3 的播放器。您可以给它添加上任何MP3链接。
 
-![audio-feature.png](https://wiki.cryptovoxels.com/audio-feature.png)
+<img src="https://wiki.cryptovoxels.com/audio-feature.png" alt="audio-feature" width="300px">
 
 ## 编辑器
 
-![editor_v8.1.png](https://wiki.cryptovoxels.com/features/[audio]editor_v8.1.png)
+![Alt text](../../_static/img/Features/Audio_editor.png)
+
+
+### URL 链接
+
+支持长达 10 分钟的 MP3。 Opensea 音频 NFT 也可以。链接必须是 `https://` 开头，因为我们强制所有东西都是  `https://` 。同时也可以选择上传选项卡<img src="../../_static/img/Features/upload_mp3.png" alt="audio-feature" width="70px">，上传音频。
+
 
 ### Sprite 小画面
 
-显示一个较小的音频元素
+<img src="../../_static/img/Features/Sprite_audio.png" alt="audio-feature" width="100px">
+
+显示一个较小的音频元素并预加载音频。
 
 ### Streaming 流式传输
 
-直接流式传输音频，无需通过我们的服务器进行代理。应该可以加快音频播放速度，但如果您在托管服务器上有奇怪的规则，则可能不行。
+直接流式传输音频，无需通过Voxels官方的服务器进行代理。应该可以加快音频播放速度，但如果您在托管服务器上有奇怪的规则，则可能不行。
 
 ### Autoplay  自动播放
 
@@ -23,7 +31,7 @@
 
 ### Loop 循环
 
-始终循环播放。
+始终循环播放直至访客离开。
 
 ### Spatial rolloff factor 空间衰减因子
 
@@ -35,16 +43,12 @@
 音频的声音的大小
 值在0到1之间。
 
-### URL
-
-链接必须是 `https://` 开头，因为我们强制所有东西都是  `https://` 。
-
 ## 脚本属性
 ::::{tab-set}
 
 :::{tab-item} url
 
-`String.`; 链接必须是以 `https://` 开头，并缺必须是以音频扩展后缀结尾，例如 `.mp3`
+`String.`; 链接必须是以 `https://` 开头，并且必须是以音频扩展后缀结尾，例如 `.mp3`
 
 **get()**
 

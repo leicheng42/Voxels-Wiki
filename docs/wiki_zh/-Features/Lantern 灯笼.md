@@ -12,7 +12,9 @@
 
 
 ## Editor 编辑器
-![lantern_editor_v4.10.png](https://wiki.cryptovoxels.com/lantern_editor_v4.10.png)
+
+![Lantern_editor](../../_static/img/Features/Lantern_editor.png)
+
 
 ### Color 颜色
 

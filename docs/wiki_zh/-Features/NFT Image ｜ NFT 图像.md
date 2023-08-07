@@ -1,14 +1,13 @@
 (nft-image)=
 # NFT 图像 NFT Image 
 
-For NFTs you own, the NFT image will appear with a shiny frame.
-对您拥有的 NFT，NFT 图像将带有闪亮的边框。
+展示您所拥有的NFT图像。
 
 ![nft-image-example.png](https://wiki.cryptovoxels.com/nft-image-example.png)
 
 ## Editor 编辑器
 
-![editor_v7.18.png](https://wiki.cryptovoxels.com/features/[nft-image]editor_v7.18.png)
+![nft_image_editor](../../_static/img/Features/nft_image_editor.png)
 
 ### Opensea Asset URL ｜ Opensea 资产 URL
 

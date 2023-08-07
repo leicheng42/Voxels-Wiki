@@ -1,7 +1,7 @@
 (vid-screen)=
 # 游戏屏幕 VidScreen
 
-VidScreen 是一个可编程的 64x64 屏幕，您可以使用箭头键“a”和“b”与其进行交互。
+VidScreen 是一个可编程的 64x64 屏幕，您可以使用箭头键“a”和“b”与其进行交互，需与编程代码协作完成游戏编写。
 
 ![vid-screen-example.png](https://wiki.cryptovoxels.com/vid-screen-example.png)
 

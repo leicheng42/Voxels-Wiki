@@ -5,9 +5,12 @@ Megavoxes是一个大小为126x126x126 `.vox` 模型，目前每个地块Parcel�
 
 ![megavox-example.png](https://wiki.cryptovoxels.com/megavox-example.png)
 
+
+
 ## Editor 编辑器
 
-![megavox-editor.png](https://wiki.cryptovoxels.com/megavox-editor.png)
+![Lantern_editor](../../_static/img/Features/Megavox_editor.png)
+
 
 ### URL
 

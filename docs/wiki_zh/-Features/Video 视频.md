@@ -7,7 +7,7 @@
 
 ## Editor 编辑器
 
-![video_editor_v4.25.png](https://wiki.cryptovoxels.com/video_editor_v4.25.png)
+![video_editor](../../_static/img/Features/video_editor.png)
 
 ### URL
 

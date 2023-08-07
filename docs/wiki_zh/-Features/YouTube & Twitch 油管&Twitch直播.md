@@ -7,7 +7,7 @@
 
 ## Editor 编辑器
 
-![youtube_editor_v4.25.png](https://wiki.cryptovoxels.com/youtube_editor_v4.25.png)
+![youtube_editor](../../_static/img/Features/youtube_editor.png)
 
 ### Screen ratio 屏幕比例
 

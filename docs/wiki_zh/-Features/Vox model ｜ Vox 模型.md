@@ -7,7 +7,7 @@ Vox 是小型 (32x32x32) .vox 型号，目前每个地块仅限 200 个。这些
 
 ## Editor 编辑器
 
-![vox-model-editor_v4.13.png](https://wiki.cryptovoxels.com/vox-model-editor_v4.13.png)
+![vox-model-editor](../../_static/img/Features/vox-model-editor.png)
 
 ### URL
 

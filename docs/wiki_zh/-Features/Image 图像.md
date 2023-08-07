@@ -7,7 +7,9 @@
 
 ## Editor 编辑器
 
-![image-editor.png](https://wiki.cryptovoxels.com/image-editor.png)
+![Image_editor_1](../../_static/img/Features/Image_editor_1.png)
+
+![Image_editor_2](../../_static/img/Features/Image_editor_2.png)
 
 ### URL
 
@@ -27,7 +29,6 @@
 
 ### Stretch 拉伸
 
-If ticked, the image will be stretched to fit into the target rectangular area, rather than cropped.
 如果勾选，图像将被拉伸以适合目标矩形区域，而不是被裁剪。
 
 ### Update daily 每日更新
