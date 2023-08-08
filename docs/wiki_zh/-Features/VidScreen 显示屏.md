@@ -40,6 +40,176 @@ This event triggers when the player clicks on the vidscreen to activate it.
 
 This is a simple version of the arcade game Breakout, written for a Cryptovoxels vidscreen. [Full Source code here](https://gist.github.com/moritree/5970fca2a61b3dab1179467a6ffcbe07). You have control over a paddle at the bottom of the screen, which can move left and right. There is an array of blocks at the top of the screen. A ball bounces off of the paddle and walls of the game, and any time it hits a block it not only bounces off but also destroys the block. If the ball hits the bottom of the screen, the game resets.
 
+```javascript
+let ball, paddle, frame, blocks
+
+feature.on('keys', e => {
+  if (e.keys.left) {
+    paddle.moveLeft()
+  } else if (e.keys.right) {
+    paddle.moveRight()
+  }
+})
+
+feature.on('start', e => {
+  reset()
+})
+
+feature.on('frame', e => {
+  frame += 1
+  update()
+  draw()
+})
+
+function update() {
+  ball.update()
+}
+
+function draw() {
+  feature.screen.fill(0)
+  
+  ball.draw()
+  paddle.draw()
+  for (j = 0; j < blocks.length; j ++) {
+    blocks[j].draw()
+  }
+}
+
+function reset() {
+  ball = new Ball(Math.round(Math.random() * 64), 32)
+  paddle = new Paddle(29, 60, 6)
+  frame = 0
+  blocks = []
+  for (y = 0; y < 5; y ++) {
+    for (z = 0; z < 8; z ++) {
+      blocks.push(new Block(Math.floor(feature.screenWidth / 8 * z + 2), y * 4 + 2, 5, 3))
+    }
+  }
+  draw()
+}
+
+// classes
+
+class Ball {
+  constructor(x, y) {
+    this.xPos = x
+    this.yPos = y
+    
+    this.xVel = Math.random() > 0.5 ? 1 : -1
+    this.yVel = 1
+  }
+  
+  update() {
+    if (frame % 2 != 0) {
+      return
+    }
+    
+    // wall collision detection
+    
+    if (this.xPos + this.xVel > 63 || this.xPos + this.xVel < 0) {
+      this.xVel *= -1
+    }
+    if (this.yPos + this.yVel < 0) {
+      this.yVel *= -1
+    }
+    if (this.yPos + this.yVel > 63) {
+      reset()
+    }
+    
+    // paddle collision detection
+    
+    if ((this.yPos + this.yVel == paddle.yPos)) {
+      let nextX = this.xPos + this.xVel
+      if (nextX >= paddle.xPos && nextX <= paddle.xPos + paddle.width) {
+        this.yVel *= -1
+      }
+    }
+    
+    // block collision detection
+    
+    for (let i = 0; i < blocks.length; i ++) {
+      let block = blocks[i]
+      let nextX = this.xPos + this.xVel
+      let nextY = this.yPos + this.yVel
+      
+      if (nextX >= block.x && nextX < block.x + block.width && nextY >= block.y && nextY < block.y + block.height) {
+        if (this.xPos < block.x || this.xPos > block.x + block.width - 1) {
+          this.xVel *= -1
+        }
+        if (this.yPos < block.y || this.yPos > block.y + block.height - 1) {
+          this.yVel *= -1
+        }
+        
+        blocks.splice(i, 1)
+        break
+      }
+    }
+    
+    // update position
+        
+    this.xPos += this.xVel
+    this.yPos += this.yVel
+  }
+  
+  draw() {
+    for (let i = 0; i < 3; i ++) {
+      feature.screen[this.yPos * feature.screenWidth * 3 + this.xPos * 3 + i] = 255
+    }
+  }
+}
+
+class Paddle {
+  constructor(x, y, w) {
+    this.xPos = x
+    this.yPos = y
+    this.width = w
+  }
+  
+  draw() {
+    for (let i = this.yPos * feature.screenWidth * 3 + this.xPos * 3; i < this.yPos * feature.screenWidth * 3 + (this.xPos + this.width) * 3 + 3; i ++) {
+      feature.screen[i] = 255
+    }
+  }
+  
+  moveLeft() {
+    if (this.xPos > 0) {
+      this.xPos -= 1
+      draw()
+    }
+  }
+  
+  moveRight() {
+    if (this.xPos + this.width < 63) {
+      this.xPos += 1
+      draw()
+    }
+  }
+}
+
+class Block {
+  constructor(x, y, w, h) {
+    this.x = x
+    this.y = y
+    this.width = w
+    this.height = h
+  }
+  
+  draw() {
+    // horizontal lines
+    for (let i = 0; i < this.width; i++) {
+      feature.screen[this.y * feature.screenWidth * 3 + (this.x + i) * 3] = 255
+      feature.screen[(this.y + this.height - 1) * feature.screenWidth * 3 + (this.x + i) * 3] = 255
+    }
+    
+    // vertical lines
+    for (let i = 0; i < this.height; i++) {
+      feature.screen[(this.y + i) * feature.screenWidth * 3 + this.x * 3] = 255
+      feature.screen[(this.y + i) * feature.screenWidth * 3 + (this.x + this.width - 1) * 3] = 255
+    }
+  }
+}
+```
+
 Let's demonstrate how the vidscreen's unique events and attributes are used.
 
 ```

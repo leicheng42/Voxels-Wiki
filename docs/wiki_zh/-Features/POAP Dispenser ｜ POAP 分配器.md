@@ -9,7 +9,12 @@ POAP 代表出席协议证明，是 XDai 网络上颁发给虚拟和现实世界
 
 ![POAP-editor.png](https://cdn.discordapp.com/attachments/469095615654002688/976929932708040806/unknown.png)
 
-左键单击 PAOP 分配器以兑换您的 poap。将出现成功或错误消息。您还可以访问 https://app.poap.xyz/scan/[您的钱包地址] 查看您的 poap 兑换状态
+左键单击 PAOP 分配器以兑换您的 poap。将出现成功或错误消息。您还可以访问 https://app.poap.xyz/scan/[您的钱包地址] 查看您的 poap 兑换状态，点击 https://poap.xyz/ 去创建POAP。
+
+```{note}
+ID `146716`
+Edit code `363990`
+```
 
 ### Event ID 事件ID
 

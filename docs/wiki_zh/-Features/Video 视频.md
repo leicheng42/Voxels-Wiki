@@ -13,6 +13,8 @@
 
 要播放的视频的 URL。必须以“https://”开头，并以视频扩展名结尾，例如“.mp4”。
 
+示例url  `https://raw.githubusercontent.com/leicheng42/Voxels-Wiki/main/docs/_static/img/%E5%91%A8%E6%9D%B0%E4%BC%A6MTV_%E9%9D%92%E8%8A%B1%E7%93%B7.mp4`
+
 ### Image preview 图片预览
 
 `（可选）` 让用户为视频设置自定义缩略图。

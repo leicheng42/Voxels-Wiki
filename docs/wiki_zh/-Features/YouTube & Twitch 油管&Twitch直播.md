@@ -17,6 +17,10 @@
 
 要播放的视频的 YouTube/Twitch URL。
 
+https://www.youtube.com/watch?v=Q5-0hl_4X_g
+
+https://www.twitch.tv/muse_tw
+
 ### Thumbnail url 缩略图URL
 
 `（可选）` 让用户为视频设置自定义缩略图。
